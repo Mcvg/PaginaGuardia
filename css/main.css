@@ -1,0 +1,906 @@
+body, #ofrenda{
+  background: rgb(236, 254, 255) !important;
+  font-family: comfortaa;
+}
+
+a {
+  margin: 0px;
+  padding: 0px; }
+  a:hover {
+    color: #ff6600; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #060a0f; }
+
+p {
+  color: #494949; }
+
+.tSlow, a, input,
+select,
+option,
+textarea, button, .rombo, #button,  .servicio-img, .diamante, nav, nav .logo img, nav ul, nav ul .link-active a:after, nav ul li a, nav ul li a:before, nav ul li a:after, .grid-item, .grid-item:before, .tumblr, .copy a, .social-networks li, .social-networks li i {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.pad_100 {
+  padding: 100px 0px; }
+
+.pad_200{
+  padding: 200px 0px;}
+  .center {
+  text-align: center;
+  margin: 0px auto; }
+
+.main-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #5b1313;
+  font-family: double-pica-small-caps, serif;
+}
+
+input,
+select,
+option,
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #060a0f;
+  margin: 5px 0px;
+  opacity: .5; }
+  input:hover, input:focus,
+  select:hover,
+  select:focus,
+  option:hover,
+  option:focus,
+  textarea:hover,
+  textarea:focus {
+    opacity: 1;
+    color: #060a0f; }
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 250px; }
+
+button , #button{
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #060a0f;
+  padding: 10px 20px;
+  margin: 5px 0px;
+  color: #060a0f;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: .7; }
+  button:hover, #button:hover {
+    opacity: 1;
+    background-color: #060a0f;
+    color: white; 
+  text-decoration: none}
+
+.black {
+  background-color: #060a0f;
+  opacity: 1;
+  color: white; }
+  .black:hover {
+    background-color: #ff6600;
+    border: 1px solid #ff6600; }
+
+.servicio-img {
+  width: 250px;
+  height: 250px; }
+
+.rombo, .servicio-img, .diamante {
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -o-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .rombo:hover, .servicio-img:hover, .diamante:hover {
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%); }
+
+.diamante {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 50; }
+
+  .index .diamante{
+    background-image: url("../images/square_01.jpg");
+  }
+  .consagra .diamante{
+    background-image: url("../images/square_02.jpg");
+    left: 40%;
+  }
+  .maria .diamante{
+    background-image: url("../images/maria.jpg");
+    left: 40%;
+  }
+  .jesus .diamante{
+    background-image: url("../images/jesus.jpg");
+    left: 40%;
+  }
+nav {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0px;
+  position: fixed;
+  border-bottom: 1px solid transparent;
+  z-index: 100; }
+  nav:hover {
+    background-color: #f9f9f9;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(6, 10, 15, 0.1); }
+    nav:hover .logo img {
+      width: 30%; }
+    nav:hover ul {
+      margin-top: 8px; }
+      nav:hover ul li a {
+        color: rgba(73, 73, 73, 0.5) !important; }
+nav ul li button{
+        color: rgba(73, 73, 73, 0.8) !important; }
+  nav .logo img {
+    width: 30%; }
+  nav ul {
+    margin: 0px;
+    margin-top: 12px;
+    padding: 0px;
+    text-align: right; }
+    nav ul .link-active a {
+      color: #060a0f !important; }
+      nav ul .link-active a:after {
+        width: 100%;
+        background-color: #060a0f; }
+    nav ul li {
+      display: inline-block;
+      padding: 0px 10px; }
+      nav ul li a {
+        position: relative;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.8); }
+        nav ul li a:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          background-color: transparent;
+          height: 1px; }
+        nav ul li a:after {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 0px;
+          width: 0%;
+          background-color: transparent;
+          height: 1px; }
+        nav ul li a:hover, nav ul li button:hover {
+          text-decoration: none;
+          color: #060a0f; 
+          background-color:transparent !important }
+          nav ul li a:hover:before {
+            width: 0%;
+            background-color: #060a0f; }
+          nav ul li a:hover:after {
+            width: 100%;
+            background-color: #060a0f; }
+
+.nav-overlay {
+  background-color: white;
+  border-bottom: 1px solid rgba(6, 10, 15, 0.1);
+  padding: 25px 0px; }
+  .nav-overlay .logo img {
+    width: 35%; }
+  .nav-overlay ul {
+    margin-top: 8px; }
+    .nav-overlay ul li a {
+      color: rgba(73, 73, 73, 0.5); }
+
+#slider {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0%);
+  -o-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0%);
+  clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0%); }
+
+#slippry {
+  position: relative; }
+  #slippry h1, #slippry h2, #slippry h3, #slippry h4, #slippry h5, #slippry h6, #slippry p, #slippry a, #slippry button {
+    position: absolute; }
+  #slippry p {
+    width: 600px; }
+  #slippry .white_bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px; }
+  #slippry .left {
+    left: 200px; }
+  #slippry .right {
+    right: 200px; }
+  #slippry .top_250 {
+    top: 250px; }
+  #slippry .top_300 {
+    top: 300px; }
+  #slippry .top_375 {
+    top: 375px; }
+  #slippry .top_400 {
+    top: 400px; }
+  #slippry .top_450 {
+    top: 450px; }
+
+.grid {
+  width: 100%;
+  padding: 150px 0px; }
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.grid-item {
+  width: 20%;
+  padding-bottom: 20%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  background-color: white;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -o-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  cursor: pointer;
+  margin-top: -90px; }
+  .grid-item:before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    background-image: none;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; }
+  .grid-item:nth-child(6), .grid-item:nth-child(15) {
+    margin-left: 110px; }
+  .grid-item a img {
+    width: 100%;
+    height: auto; }
+  .grid-item:hover:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 102, 0, 0.9);
+    background-image: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+    width: 100%;
+    height: 100%; }
+
+#contacto {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent; }
+  #contacto ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+    #contacto ul li {
+      float: left;
+      padding: 0px;
+      margin: 0px; }
+    #contacto ul .google-maps {
+      width: 66.6%;
+      height: 100vh;
+      background-image: url("../images/maps.jpg");
+      background-position: center center;
+      background-size: cover; }
+    #contacto ul .formulario {
+      width: 33.3%;
+      height: 100vh;
+      padding: 150px 50px;
+      background-color: white; }
+
+footer {
+  margin-top: -60px;
+  width: 100%;
+  background-color: #060a0f;
+  padding: 70px 0px;
+  -webkit-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+  -o-clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 100%, 0% 100%); }
+  footer p {
+    margin: 0px;
+    padding: 0px; }
+  footer .white {
+    color: rgba(255, 255, 255, 0.4); }
+  footer ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none; }
+    footer ul li {
+      padding: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.2); }
+  footer hr {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.08); }
+
+.tumblr {
+  position: relative;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 20%;
+  cursor: pointer;
+  opacity: .7; }
+  .tumblr:hover {
+    opacity: 1; }
+
+.copy {
+  padding: 10px 0px;
+  background-color: #070c13;
+  text-align: left; }
+  .copy p, .copy a {
+    margin: 0px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.3); }
+  .copy a {
+    opacity: .5;
+    color: #ff6600; }
+    .copy a:hover {
+      opacity: 1;
+      text-decoration: none; }
+
+.social-networks {
+  margin-top: 5px; }
+  .social-networks li {
+    display: inline-block;
+    position: relative;
+    margin: 0px 7px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    cursor: pointer; }
+    .social-networks li i {
+      font-size: 22px;
+      color: rgba(255, 255, 255, 0.2);
+      -webkit-transform: ratate(0deg) translate(-3px, 3px);
+      -ms-transform: ratate(0deg) translate(-3px, 3px);
+      -o-transform: ratate(0deg) translate(-3px, 3px);
+      transform: ratate(0deg) translate(-3px, 3px);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+    .social-networks li:hover {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background-color: white;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+      .social-networks li:hover i {
+        color: #060a0f;
+        -webkit-transform: rotate(-45deg) translate(-3px, 3px);
+        -ms-transform: rotate(-45deg) translate(-3px, 3px);
+        -o-transform: rotate(-45deg) translate(-3px, 3px);
+        transform: rotate(-45deg) translate(-3px, 3px); }
+
+.maria .list-group-item{
+  color: #000;
+  background-color: #f1efc9;
+  border-color: #fff;
+}
+.jesus .list-group-item{
+  color: #000;
+  background-color: #BDE4F4;
+  border-color: #BDE4F4;
+}
+
+.list-group-item:hover{
+  color: rgb(148, 140, 140);
+}
+.maria .list-group-item.active {
+  color: #000;
+  background-color: #fffdd3;
+  border-color: #F0CA6D;
+}
+.jesus .list-group-item.active {
+  color: #000;
+  background-color: rgb(148, 219, 247);
+  border-color: #050733;
+}
+
+#origen p, #santos p, #intercesores p, #ofrenda p, #cuadrante p{
+    text-align: justify;
+    font-size: 18px;
+    
+}
+#origen h3, #santos h3, #finalidad, #ofrenda h3, #intercesores h3{
+    color: #5b1313;
+    font-size: 30px;
+}
+
+@keyframes slidein {
+	 0% {
+		 top: -400px;
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 1;
+		 top: 0px;
+	}
+}
+ @keyframes slideout {
+	 0% {
+		 top: 0;
+		 opacity: 1;
+	}
+	 100% {
+		 top: -400px;
+		 opacity: 0;
+	}
+}
+ #santos {
+	 font-family: "Tahoma";
+	 -moz-user-select: none;
+	 -webkit-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+     height: 500px;
+    position: relative;
+}
+
+#santos h3{
+    margin-top: 100px;
+}
+
+ #santos #scene {
+     margin-top: 100px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 width: 1000px;
+	 height: 400px;
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 overflow: hidden;
+}
+ #santos #scene #left-zone {
+	 height: 75%;
+	 flex-grow: 0;
+	 display: flex;
+	 width: 350px;
+	 align-items: center;
+	 justify-content: left;
+}
+ #santos #scene #left-zone .list {
+	 display: flex;
+	 list-style: none;
+	 align-content: stretch;
+	 flex-direction: column;
+	 flex-grow: 1;
+	 margin: 0;
+	 padding: 0;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"], #santos #scene #left-zone .list li.otro input[type="radio"]{
+	 display: none;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label, #santos #scene #left-zone .list li.otro input[type="radio"] ~ label{
+	 display: block;
+	 opacity: 0.5;
+	 height: 50px;
+	 text-align: center;
+	 line-height: 50px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter, #santos #scene #left-zone .list li.otro input[type="radio"] ~ label:first-letter {
+	 text-transform: uppercase;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label:hover, #santos #scene #left-zone .list li.otro input[type="radio"] ~ label:hover{
+	 opacity: 0.75;
+	 cursor: pointer;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_magdalena:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/Magdalena.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ 
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_juan:before {
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/juanIcono.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_maria:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/virgenMaria.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_nuestraSeñora:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/nuestraSe%C3%B1ora.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_jose:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/jose.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_asis:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/asis.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ label.label_sales:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/sales.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+ #santos #scene #left-zone .list li.otro input[type="radio"] ~ label.label_margarita:before{
+	 content: " ";
+	 display: block;
+	 position: absolute;
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 15px;
+	 background-image: url("../images/margarita.jpg");
+	 background-position: center;
+	 background-size: 75% 75%;
+	 background-repeat: no-repeat;
+     border-radius: 100%!important;
+}
+
+
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content, #santos #scene #left-zone .list li.otro input[type="radio"] ~ .content{
+	 position: absolute;
+	 left: 350px;
+	 top: -400px;
+	 width: 650px;
+	 height: 400px;
+	 animation-duration: 0.75s;
+	 animation-name: slideout;
+	 animation-timing-function: ease-out;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 flex-direction: column;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_magdalena .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/Magdalena.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_magdalena h1{
+	 color: #d64541;
+}
+
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_juan .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/juan.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_juan h1{
+	 color: #00b16a;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_maria .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/virgenMaria.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_maria h1{
+	 color: #f27935;
+}
+
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_nuestraSeñora .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/nuestraSe%C3%B1ora.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_nuestraSeñora h1{
+	 color: #d64541;
+}
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_jose .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/jose.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_jose h1{
+	 color: #d64541;
+}
+
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_asis .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/asis.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_asis h1{
+	 color: #d64541;
+}
+
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_sales .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/sales.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+#santos #scene #left-zone .list li.item input[type="radio"] ~ .content.content_sales h1{
+	 color: #d64541;
+}
+
+#santos #scene #left-zone .list li.otro input[type="radio"] ~ .content.content_margarita .picto{
+	 height: 100px;
+	 width: 100px;
+	 background-image: url("../images/margarita.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+     width: 150px;
+     height: 150px;
+}
+#santos #scene #left-zone .list li.otro input[type="radio"] ~ .content.content_margarita h1{
+	 color: #d64541;
+}
+
+
+
+
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-letter, #santos #scene #left-zone .list li.otro input[type="radio"] ~ .content h1:first-letter {
+	 text-transform: uppercase;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"] ~ .content p, #santos #scene #left-zone .list li.otro input[type="radio"] ~ .content p{
+	 max-width: 50%;
+	 text-align: center;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label, #santos #scene #left-zone .list li.otro input[type="radio"]:checked ~ label{
+	 opacity: 1;
+	 animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+ #santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_magdalena {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_juan{
+	 color: #00b16a;
+	 border-right: solid 4px #00b16a;
+}
+ #santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_maria{
+	 color: #f27935;
+	 border-right: solid 4px #f27935;
+}
+#santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_nuestraSeñora {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+#santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_jose {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+#santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_asis {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+#santos #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_sales {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+#santos #scene #left-zone .list li.otro input[type="radio"]:checked ~ label.label_margarita {
+	 color: #d64541;
+	 border-right: solid 4px #d64541;
+}
+
+
+ #santos #scene #left-zone .list li.item input[type="radio"]:checked ~ .content, #santos #scene #left-zone .list li.otro input[type="radio"]:checked ~ .content {
+	 animation-duration: 0.75s;
+	 animation-name: slidein;
+	 animation-fill-mode: forwards;
+	 animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+ #santos #scene #middle-border {
+	 height: 75%;
+	 flex-grow: 1;
+	 max-width: 2px;
+	 z-index: 0;
+}
+ #santos #scene #right-zone{
+	 height: 100%;
+	 flex-grow: 3;
+}
+
+@font-face{
+    font-family: letraEspecial;
+    src: url("../fuentes/AlexBrush.ttf");
+}
+@font-face{
+    font-family: letraEspecial1;
+    src: url("../fuentes/Lemon Tuesday.otf");
+}
+@font-face{
+    font-family: letraEspecial2;
+    src: url("../fuentes/playlist-script.otf");
+}
+
+#frase #fraseMargarita, #frase #fraseFrancisco{
+    text-align: center;
+    font-family: letraEspecial2 !important;
+    font-size: 35px;
+    line-height: 42px;
+    color: #950309;
+    padding: 20px 10px;
+}
+
+#frase #margarita, #frase #francisco{
+    text-align: center;
+    font-family: letraEspecial;
+    font-size: 20px;
+    margin-top: -20px;
+    
+}
+#frase {
+    padding-top: 0px !important;
+    }
+
+
+
+#finalidad p strong{
+    font-family: comfortaa;
+    font-size: 17px;
+    color: #950309;
+}
+#finalidad p, #ofrenda p , #ofrenda ul li{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+#ofrenda img{
+    width: 90%;
+    border-radius: 2rem;
+    padding-left: 10%;
+}
+
+#intercesores img{
+    width: 90%;
+    border-radius: 2rem;
+    position: 
+}
+#intercesores strong{
+    color: #950309;
+    font-family: letraEspecial2;
+}
+
+#intercesores em{
+    color: #950309;
+     
+}
+
+#cuadrante{
+    background-image: linear-gradient(
+      rgba(236, 254, 255, 0.9),
+      rgba(236, 254, 255, 0.9)
+    ),
+    url("../images/logo.png");
+    background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+     border-radius: 50%!important;
+    
+}
+.redSocial img{
+    width: 40px;
+    padding: 10%;
+}
+
+
