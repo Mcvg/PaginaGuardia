@@ -421,7 +421,7 @@ footer {
   border-color: #050733;
 }
 
-#origen p, #santos p, #intercesores p, #ofrenda p, #cuadrante p{
+#origen p, #santos p, #intercesores p, #ofrenda p, #cuadrante p, #estatutos p{
     text-align: justify;
     font-size: 18px;
     
@@ -859,7 +859,7 @@ footer {
     font-size: 17px;
     color: #950309;
 }
-#finalidad p, #ofrenda p , #ofrenda ul li{
+#finalidad p, #ofrenda p , #ofrenda ul li,  #misericordia p, #cuadrante p{
     font-size: 18px;
     text-align: justify;
 }
@@ -871,6 +871,17 @@ footer {
     padding-left: 10%;
 }
 
+#misericordia img{
+    width: 90%;
+    border-radius: 2rem;
+    margin: 10%;
+}
+
+.image-cuadrante img{
+    width: 50%;
+    border-radius: 2rem;
+    margin: 10%;
+}
 #intercesores img{
     width: 90%;
     border-radius: 2rem;
@@ -898,9 +909,35 @@ footer {
      border-radius: 50%!important;
     
 }
-.redSocial img{
-    width: 40px;
-    padding: 10%;
+#contacto #redSocial strong{
+    color: #950309;
+}
+#contacto #redSocial img{
+    width: 30px;
+}
+#contacto #redSocial a{
+    text-decoration: none;
+    color: black;
+   
 }
 
+#contacto #redSocial a:hover{
+    color: gray;
+}
 
+footer .informacion ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+#estatutos{
+background-image: url('../images/logo.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+     background-image: linear-gradient(
+      rgba(236, 254, 255, 0.9),
+      rgba(236, 254, 255, 0.9)
+    ),
+    url("../images/logo.png");
+    background-position: top;
+}

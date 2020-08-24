@@ -46,26 +46,46 @@
 <body>
 	
 	<!-- navegación -->
-	<nav id="nav" class="nav-overlay">
+		<!-- navegación -->
+	<nav id="nav">
 		<div class="container-fluid">
 			<div class="row">
-				<!-- Nuestro logotipo -->
-				<div class="col-xl-2">
-					<a href="http://www.blackparadox.com" class="logo">
-						<img src="images/logo.svg" alt="Logo Blackparadox">
-					</a>
-				</div>
 				<!-- Nuestros links de navegación -->
-				<div class="col-xl-10">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="index.html#nosotros">Nosotros</a></li>
-						<li class="link-active"><a href="portafolio.html">Portafolio</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
+				<div class="col-xl-12">
+					<ul>						
+                        <li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li>
+							<a href="index.html#nosotros">Nosotros</a>
+						</li>
+                        <li>
+							<div class="btn-group">
+                                <button type="button" class="btn btn">PRÁCTICAS</button>
+                                <button type="button" class="btn btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="practicasGuardia.html">Hora de Guardia</a>
+                                    <a class="dropdown-item" href="cuadrante.html">El Cuadrante</a>
+                                    <a class="dropdown-item" href="divisa.html">La Divisa</a>
+                                    <a class="dropdown-item" href="estatutos.html">Estatutos</a>
+                                </div>
+                            </div>
+						</li>
+                        <li>
+							<a href="estatutos.html">Estatutos</a>
+						</li>
+						<li class="link-active">
+							<a href="portafolio.html">Portafolio</a>
+						</li>
+						<li>
+							<a href="index.html#contacto">Contacto</a>
+						</li>
 					</ul>
 				</div>
 			</div>
-		</div>		
+		</div>
 	</nav>
 	<!-- ends navegación -->
 	<!-- portafolio -->
@@ -105,27 +125,28 @@
 	<!--  -->
 
 	<!-- footer -->
+		<!-- footer -->
 	<footer>
-		<div class="container">
+		<div class="container ">
 			<div class="row">
 				<!--  -->
-				<div class="col-xl-2">
-					<p class="white"><strong>Mapa del sitio</strong></p>
+				<div class="col-xl-2 informacion">
+					<p class="white">
+						<strong>Mapa del sitio</strong>
+					</p>
 					<ul class="white">
-						<li class="small">Inicio</li>
-						<li class="small">Nosotros</li>
-						<li class="small">Portafolio</li>
-						<li class="small">Contacto</li>
-						<hr>
-						<li class="small">Contrato</li>
-						<li class="small">Servicios</li>
-						<li class="small">Facturación</li>
-						<li class="small">Términos y condiciones</li>
+						<li class="small"><a href="index.html">Inicio</a></li>
+						<li class="small"><a href="index.html#nosotros">Nosotros</a></li>
+                        <li class="small"><a href="practicasGuardia.html">Prácticas</a></li>
+						<li class="small"><a href="portafolio.html">Portafolio</a></li>
+						<li class="small"><a href="index.html#contacto">Contacto</a></li>
 					</ul>
 				</div>
 				<!--  -->
 				<div class="col-xl-6">
-					<p class="white"><strong>Tumblr</strong></p>
+					<p class="white">
+						<strong>Galería</strong>
+					</p>
 					<img src="images/square_01.jpg" alt="Imagen 01" class="tumblr">
 					<img src="images/square_02.jpg" alt="Imagen 02" class="tumblr">
 					<img src="images/square_03.jpg" alt="Imagen 03" class="tumblr">
@@ -139,22 +160,20 @@
 				</div>
 				<!--  -->
 				<div class="col-xl-4">
-					<p class="white"><strong>Contacto</strong></p>
-					<ul class="white">
-						<li class="small">+55 1234 5678</li>
-						<li class="small">hellow@blackparadox.com</li>
-						<li class="small">John Doe /<i> Fotógrafo</i></li>
-					</ul>
 					<br>
-					<p class="white"><strong>Redes Sociales</strong></p>
+					<p class="white">
+						<strong>Redes Sociales</strong>
+					</p>
 					<ul class="social-networks">
-						<li><i class="fa fa-facebook"></i></li>
-						<li><i class="fa fa-twitter"></i></li>
-						<li><i class="fa fa-youtube"></i></li>
-						<li><i class="fa fa-tumblr"></i></li>
+						<li>
+                            <a href="https://www.facebook.com/AsociacionHoraDePresenciaColombia"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UC7bL_Q9JX11h2Lt1eDXWoHA"><i class="fa fa-youtube"></i></a>
+						</li>
 					</ul>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</footer>
 	<div class="copy">
@@ -162,7 +181,7 @@
 			<div class="row">
 				<div class="col">
 					<p class="small">
-						&copy; 2017 Todos los derechos reservados por <a href="#">Blackparadox</a>.
+						&copy; 2020 Todos los derechos reservados por Viva + Jesús VSM
 					</p>
 				</div>
 			</div>
