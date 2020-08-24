@@ -863,6 +863,9 @@ footer {
     font-size: 18px;
     text-align: justify;
 }
+#finalidad img{
+     border-radius: 2rem;
+}
 
 
 #ofrenda img{
